@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std;  // use namespace std to make cin and cout simple
 
 int main() {
     // Declare an array of 5 integers
