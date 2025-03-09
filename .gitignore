@@ -1,0 +1,43 @@
+# Ignore build directories
+/build/
+/bin/
+/obj/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled binary files
+*.exe
+*.out
+*.app
+
+# Ignore debug files
+*.dSYM/
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore CMake build files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.cmake
+
+# Ignore test results
+*.log
+*.tap
+
+# Ignore other temporary or system files
+*.tmp
+*.bak
+*.~*
+
+# Ignore dependencies or package manager directories
+/vendor/
