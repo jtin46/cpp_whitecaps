@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std;  // use this always
 
 int main() {
     // Declare an array of 5 integers
