@@ -1,0 +1,20 @@
+# Reversing order
+•	Next node= current.next         //next ko aage bejo
+•	Current.next= prevnode         //current ko update karo
+•	Prevnode= current                  //previous ko aage bhejo
+•	Current= nextnode                 // current ko aage bhejo
+# Insertion in Circular linked list
+•	temp.next= newnode
+•	new node.next= start
+•	start= newnode
+# Delete a node from start
+While (temp.next!=start)
+{ 
+    temp =temp.next
+}
+
+# Insert a node after a particular value 
+post.prev= newnode
+newnode.next= post
+newnode.prev= current
+current.next= newnode
