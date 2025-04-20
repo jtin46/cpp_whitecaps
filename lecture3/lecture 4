@@ -1,0 +1,25 @@
+reversing the linked list
+next node=null
+previous node=null
+next node=current.next
+current.next=previous node
+previous node=current
+current=next node
+
+inserting an element in circular linked list
+temp.next=new node
+new node.next=start
+start=new node
+
+deleting an element in circular linked list
+while(temp.next!=start)
+{temp=temp.next}
+temp.next=start.next
+start=start.next
+
+inserting an element in doubly linked list
+current/new node/post
+previous/data/next
+post.previous=new node/new node.next=post
+new node.previous=current/current.next=new node
+
